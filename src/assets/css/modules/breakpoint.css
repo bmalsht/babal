@@ -1,0 +1,9 @@
+/*
+ * Breakpoint
+ */
+
+@custom-media --breakpoint-sm (min-width: 760px); /* Tablet */
+
+@custom-media --breakpoint-md (min-width: 992px); /* Medium desktop */
+
+@custom-media --breakpoint-lg (min-width: 1200px); /* Large desktop */

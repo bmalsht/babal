@@ -1,0 +1,177 @@
+/*
+ * Aspect Ratios
+ */
+
+.aspect-1-1,
+.aspect-4-3,
+.aspect-3-2,
+.aspect-16-9,
+.aspect-2-1,
+.aspect-3-1 {
+    position: relative;
+}
+.aspect-1-1:after,
+.aspect-4-3:after,
+.aspect-3-2:after,
+.aspect-16-9:after,
+.aspect-2-1:after,
+.aspect-3-1:after {
+    display: block;
+    content: '';
+}
+
+.aspect-1-1:after {
+    padding-top: 100%;
+}
+
+.aspect-4-3:after {
+    padding-top: 75%;
+}
+
+.aspect-3-2:after {
+    padding-top: 66.7%;
+}
+
+.aspect-16-9:after {
+    padding-top: 56.25%;
+}
+
+.aspect-2-1:after {
+    padding-top: 50%;
+}
+
+.aspect-3-1:after {
+    padding-top: 33.3%;
+}
+
+@media (--breakpoint-sm) {
+    .sm-aspect-1-1,
+    .sm-aspect-4-3,
+    .sm-aspect-3-2,
+    .sm-aspect-16-9,
+    .sm-aspect-2-1,
+    .sm-aspect-3-1 {
+        position: relative;
+    }
+    .sm-aspect-1-1:after,
+    .sm-aspect-4-3:after,
+    .sm-aspect-3-2:after,
+    .sm-aspect-16-9:after,
+    .sm-aspect-2-1:after,
+    .sm-aspect-3-1:after {
+        display: block;
+        content: '';
+    }
+
+    .sm-aspect-1-1:after {
+        padding-top: 100%;
+    }
+
+    .sm-aspect-4-3:after {
+        padding-top: 75%;
+    }
+
+    .sm-aspect-3-2:after {
+        padding-top: 66.7%;
+    }
+
+    .sm-aspect-16-9:after {
+        padding-top: 56.25%;
+    }
+
+    .sm-aspect-2-1:after {
+        padding-top: 50%;
+    }
+
+    .sm-aspect-3-1:after {
+        padding-top: 33.3%;
+    }
+}
+
+@media (--breakpoint-md) {
+    .md-aspect-1-1,
+    .md-aspect-4-3,
+    .md-aspect-3-2,
+    .md-aspect-16-9,
+    .md-aspect-2-1,
+    .md-aspect-3-1 {
+        position: relative;
+    }
+    .md-aspect-1-1:after,
+    .md-aspect-4-3:after,
+    .md-aspect-3-2:after,
+    .md-aspect-16-9:after,
+    .md-aspect-2-1:after,
+    .md-aspect-3-1:after {
+        display: block;
+        content: '';
+    }
+
+    .md-aspect-1-1:after {
+        padding-top: 100%;
+    }
+
+    .md-aspect-4-3:after {
+        padding-top: 75%;
+    }
+
+    .md-aspect-3-2:after {
+        padding-top: 66.7%;
+    }
+
+    .md-aspect-16-9:after {
+        padding-top: 56.25%;
+    }
+
+    .md-aspect-2-1:after {
+        padding-top: 50%;
+    }
+
+    .md-aspect-3-1:after {
+        padding-top: 33.3%;
+    }
+}
+
+@media (--breakpoint-lg) {
+    .lg-aspect-1-1,
+    .lg-aspect-4-3,
+    .lg-aspect-3-2,
+    .lg-aspect-16-9,
+    .lg-aspect-2-1,
+    .lg-aspect-3-1 {
+        position: relative;
+    }
+    .lg-aspect-1-1:after,
+    .lg-aspect-4-3:after,
+    .lg-aspect-3-2:after,
+    .lg-aspect-16-9:after,
+    .lg-aspect-2-1:after,
+    .lg-aspect-3-1:after {
+        display: block;
+        content: '';
+    }
+
+    .lg-aspect-1-1:after {
+        padding-top: 100%;
+    }
+
+    .lg-aspect-4-3:after {
+        padding-top: 75%;
+    }
+
+    .lg-aspect-3-2:after {
+        padding-top: 66.7%;
+    }
+
+    .lg-aspect-16-9:after {
+        padding-top: 56.25%;
+    }
+
+    .lg-aspect-2-1:after {
+        padding-top: 50%;
+    }
+
+    .lg-aspect-3-1:after {
+        padding-top: 33.3%;
+    }
+}

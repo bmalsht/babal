@@ -1,0 +1,78 @@
+/*
+ * Colour
+ */
+
+:root {
+    --athensgray: #f3f5f7;
+    --midnight: #001c3d;
+    --prussianblue: #002856;
+    --red: #ff0000;
+    --redorange: #ff2b2b;
+    --seashellpeach: #fff8f3;
+    --weepeep: #f9e4e6;
+    --white: #ffffff;
+}
+
+.athensgray {
+    color: var(--athensgray);
+}
+
+.midnight {
+    color: var(--midnight);
+}
+
+.prussianblue {
+    color: var(--prussianblue);
+}
+
+.red {
+    color: var(--red);
+}
+
+.redorange {
+    color: var(--redorange);
+}
+
+.seashellpeach {
+    color: var(--seashellpeach);
+}
+
+.weepeep {
+    color: var(--weepeep);
+}
+
+.white {
+    color: var(--white);
+}
+
+.bg-athensgray {
+    background-color: var(--athensgray);
+}
+
+.bg-midnight {
+    background-color: var(--midnight);
+}
+
+.bg-prussianblue {
+    background-color: var(--prussianblue);
+}
+
+.bg-red {
+    background-color: var(--red);
+}
+
+.bg-redorange {
+    background-color: var(--redorange);
+}
+
+.bg-seashellpeach {
+    background-color: var(--seashellpeach);
+}
+
+.bg-weepeep {
+    background-color: var(--weepeep);
+}
+
+.bg-white {
+    background-color: var(--white);
+}

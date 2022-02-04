@@ -1,0 +1,196 @@
+/*
+ * Typography
+ */
+
+@font-face {
+    font-display: swap;
+    font-family: 'Maison Neue';
+    font-style: normal;
+    font-weight: 300;
+    src: url('/fonts/MaisonNeue-Light.woff2') format('woff2'),
+        url('/fonts/MaisonNeue-Light.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Maison Neue';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/fonts/MaisonNeue-Medium.woff2') format('woff2'),
+        url('/fonts/MaisonNeue-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Sabon;
+    font-style: normal;
+    font-weight: normal;
+    src: url('/fonts/SabonMTPro-Regular.woff2') format('woff2'),
+        url('/fonts/SabonMTPro-Regular.woff') format('woff');
+}
+
+:root {
+    --body-font-size: 14px;
+
+    --sans-family: 'Maison Neue', 'Helvetica Neue', Helvetica, Arial;
+    --serif-family: Sabon, Georgia, Garamond;
+}
+
+address,
+.address {
+    font-family: var(--sans-family);
+    font-style: normal;
+}
+
+a,
+.a {
+    position: relative;
+    text-decoration: none;
+}
+
+html {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-size: var(--body-font-size);
+    text-rendering: optimizeLegibility;
+}
+
+h1,
+.h1 {
+    color: var(--midnight);
+    font-family: var(--sans-family);
+    font-size: 1.2857142857rem; /* 18px */
+    font-weight: 600;
+    letter-spacing: 4px;
+    line-height: 1.3333333333; /* 20px */
+    margin: 1.5em 0; /* 27px 0 */
+    text-transform: uppercase;
+}
+
+.h1.h1--mb {
+    margin-bottom: 4em;
+}
+
+h2,
+.h2 {
+    color: var(--red);
+    font-family: var(--sans-family);
+    font-size: 0.7857142857rem; /* 11px */
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 1;
+    margin: 5.4545454545em 0 0 0; /* 60px 0 -50px 0 */
+    text-transform: uppercase;
+}
+
+.h2.h2--lh {
+    line-height: 2.7272727273; /* 30px */
+}
+
+h3,
+.h3 {
+    color: var(--midnight);
+    font-family: var(--serif-family);
+    font-size: 1.5rem; /* 21px */
+    letter-spacing: 0.2px;
+    line-height: 1.380952381; /* 29px */
+    margin: 0;
+}
+
+h4,
+.h4 {
+    color: var(--midnight);
+    font-family: var(--sans-family);
+    font-size: 0.9285714286rem; /* 13px */
+    font-weight: 600;
+    letter-spacing: 0.2307692308em; /* 3px */
+    line-height: 1;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.h4.h4--lh {
+    line-height: 1.7692307692; /* 23px */
+}
+
+p,
+.p {
+    color: var(--midnight);
+    font-family: var(--sans-family);
+    font-size: 1rem; /* 14px */
+    font-weight: 300;
+    line-height: 1.7142857143; /* 24px */
+    letter-spacing: 0.1em; /* 1.4px */
+    margin: 0;
+}
+
+p + p,
+.p + .p {
+    margin-top: 1.4285714286em; /* 20px */
+}
+
+h1 + p,
+h2 + p,
+h3 + p,
+h4 + p,
+.h1 + .p,
+.h2 + .p,
+.h3 + .p,
+.h4 + .p {
+    margin-top: 2.8571428571em; /* 40px */
+}
+
+.h4--lh + .p {
+    margin-top: 2.4615384615em; /* 32px */
+}
+
+hr,
+.hr {
+    background-color: var(--red);
+    border: 0;
+    font-size: 1rem;
+    height: 1px;
+    margin: 2.1428571429em 0 1.7857142857em 0; /* 30px 0 25px 0 */
+    width: 1.0714285714em; /* 15px */
+}
+
+.hr.hr--short-gap {
+    margin-top: 2.8571428571em; /* 40px */
+}
+
+.hr.hr--shorter-gap {
+    margin-top: 1.7857142857em; /* 25px */
+}
+
+/* Responsive */
+
+@media (--breakpoint-sm) {
+    h1,
+    .h1 {
+        margin: 2.6666666667em 0; /* 40px 0 */
+    }
+
+    h3,
+    .h3 {
+        font-size: 1.7142857143rem; /* 24px */
+        line-height: 1.4583333333; /* 35px */
+    }
+}
+
+@media (--breakpoint-md) {
+    h1,
+    .h1 {
+        margin: 6.6666666667em 0 0 0; /* 100px 0 0 0 */
+        position: fixed;
+    }
+
+    hr,
+    .hr {
+        margin-bottom: 2.7142857143em; /* 38px */
+        margin-top: 5.7142857143em; /* 80px */
+    }
+
+    .hr + .h3 {
+        margin-top: -0.2916666667em; /* -7px */
+    }
+}

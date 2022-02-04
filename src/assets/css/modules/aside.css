@@ -1,0 +1,28 @@
+/*
+ * Aside
+ */
+
+.aside {
+    height: 100%;
+    padding: 0 2.1428571429em; /* 0 30px */
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+/* Responsive */
+
+@media (--breakpoint-sm) {
+    .aside {
+        padding: 8.5714285714em 2.1428571429em 2.8571428571em 2.1428571429em;
+        /* 120px 30px 40px 30px */
+        width: 50%;
+    }
+}
+
+@media (--breakpoint-md) {
+    .aside {
+        display: none;
+    }
+}

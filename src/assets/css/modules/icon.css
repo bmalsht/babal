@@ -1,0 +1,41 @@
+/*
+ * Icon
+ */
+
+.icon-arrow {
+    background-color: currentColor;
+    height: 1px;
+    left: -30px;
+    margin-top: -0.5px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    transition: 140ms opacity ease-out;
+    width: 11.5px;
+}
+
+.icon-arrow:after,
+.icon-arrow:before {
+    content: '';
+    background-color: currentColor;
+    color: inherit;
+    height: 1px;
+    width: 5px;
+    position: absolute;
+    right: 0;
+    transform-origin: center right;
+}
+
+.icon-arrow:after {
+    transform: rotate(45deg);
+}
+
+.icon-arrow:before {
+    transform: rotate(-45deg);
+}
+
+.a:hover .icon-arrow,
+.a:focus .icon-arrow,
+.a.a--active .icon-arrow {
+    opacity: 1;
+}

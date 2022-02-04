@@ -1,0 +1,33 @@
+/*
+ * Header
+ */
+
+main {
+    padding-top: 7.2857142857em; /* 102px */
+}
+
+.header {
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Responsive */
+
+@media (--breakpoint-sm) {
+    main {
+        padding-top: 10.2857142857em; /* 144px */
+    }
+}
+
+@media (--breakpoint-md) {
+    main {
+        padding-top: 0;
+    }
+
+    .header {
+        height: 12em; /* 168px */
+        position: relative;
+    }
+}

@@ -1,0 +1,23 @@
+/*
+ * Buttons
+ */
+
+.btn {
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    height: auto;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    line-height: inherit;
+    letter-spacing: inherit;
+    border-radius: 0;
+}
+.btn:hover {
+    text-decoration: none;
+}
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}

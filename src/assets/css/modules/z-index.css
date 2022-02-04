@@ -1,0 +1,19 @@
+/*
+ * Z-Index
+ */
+
+.header {
+    z-index: 1;
+}
+
+.aside {
+    z-index: 2;
+}
+
+.burger {
+    z-index: 3;
+}
+
+body:after {
+    z-index: 5;
+}

@@ -1,0 +1,25 @@
+/*
+ * List
+ */
+
+ul,
+.ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul > li,
+.ul > .li {
+    line-height: 1;
+}
+
+ul > li + li,
+.ul > .li + .li {
+    margin-top: 0.6428571429em; /* 9px */
+}
+
+.ul.ul--spread > li + li,
+.ul.ul--spread > .li + .li {
+    margin-top: 1.5714285714em; /* 22px */
+}

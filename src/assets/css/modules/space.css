@@ -1,0 +1,37 @@
+/*
+ * Space
+ */
+
+.mt0 {
+    margin-top: 0;
+}
+
+.pb0 {
+    padding-bottom: 0;
+}
+
+.mt40 {
+    margin-top: 2.8571428571em; /* 40px */
+}
+
+/* Responsive */
+
+@media (--breakpoint-sm) {
+    .sm-mt0 {
+        margin-top: 0;
+    }
+
+    .sm-mt60 {
+        margin-top: 4.2857142857em; /* 60px */
+    }
+}
+
+@media (--breakpoint-md) {
+    .md-mt0 {
+        margin-top: 0;
+    }
+
+    .md-mt80 {
+        margin-top: 5.7142857143em; /* 80px */
+    }
+}

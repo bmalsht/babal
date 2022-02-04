@@ -1,0 +1,13 @@
+/*
+ * Transitions
+ */
+
+.transition-opacity {
+    transition: opacity .2s cubic-bezier(.45,.34,.65,.96);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+ }
+
+.transition-transform {
+    transition: transform .2s cubic-bezier(.45,.34,.65,.96);
+}

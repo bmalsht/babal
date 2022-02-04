@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0d31e8fb.chunk.css",
+    "main.js": "/static/js/main.b7ab2b4a.chunk.js",
+    "main.js.map": "/static/js/main.b7ab2b4a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e701c501.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e701c501.js.map",
+    "static/js/2.4819c53a.chunk.js": "/static/js/2.4819c53a.chunk.js",
+    "static/js/2.4819c53a.chunk.js.map": "/static/js/2.4819c53a.chunk.js.map",
+    "static/js/3.b9ead97b.chunk.js": "/static/js/3.b9ead97b.chunk.js",
+    "static/js/3.b9ead97b.chunk.js.map": "/static/js/3.b9ead97b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.0d31e8fb.chunk.css.map": "/static/css/main.0d31e8fb.chunk.css.map",
+    "static/js/2.4819c53a.chunk.js.LICENSE.txt": "/static/js/2.4819c53a.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/SabonMTPro-Regular.872a1105.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e701c501.js",
+    "static/js/2.4819c53a.chunk.js",
+    "static/css/main.0d31e8fb.chunk.css",
+    "static/js/main.b7ab2b4a.chunk.js"
+  ]
+}

@@ -1,0 +1,25 @@
+/*
+ * Section
+ */
+
+.section {
+    min-height: 100vh;
+}
+
+.header + .section {
+    min-height: calc(100vh - 4.2857142857em);
+}
+
+/* Responsive */
+
+@media (--breakpoint-sm) {
+    .header + .section {
+        min-height: calc(100vh - 5.7142857143em);
+    }
+}
+
+@media (--breakpoint-md) {
+    .header + .section {
+        min-height: calc(100vh - 9.8571428571em);
+    }
+}
